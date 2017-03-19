@@ -1,0 +1,34 @@
+body{
+    padding: 5px;
+}
+#searchingBox{
+    margin-bottom: 10px;
+    text-align: center;
+}
+#new{
+    margin-bottom: 5px;
+    width:100px; 
+}
+#exit{
+    width:90px;  
+    display: inline;
+    margin-bottom: 10px;
+}
+table *{
+    text-align: center;
+}
+th{ 
+    font-weight: bold;
+    color:white;
+    background-color: #26A69A;
+}
+.control{
+    cursor: pointer;
+    opacity:0.9; 
+}
+.control:hover{ opacity:1.0; }
+.datepickers-container{
+    z-index: 1000000000000000;
+}
+
+.inputerror{ border-bottom:1px #ff1744 solid !important; color:#ff1744 !important;  }
